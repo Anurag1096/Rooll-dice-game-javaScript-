@@ -14,7 +14,13 @@ let currentScore = 0;
 let activePlayer = 0;
 const scores = [0, 0];
 let playing = true;
-
+setTimeout(()=>{
+  console.log("this is timeout will run after micor task due to call back quee having low priority ");
+},80)
+queeMicorTask(()=>{
+  console.log("this is micor task it will run before");
+  
+})
 // Creating a random variable  and attaching it to the button click event.
 
 const ranfunc = function () {
