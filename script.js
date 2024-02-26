@@ -9,6 +9,7 @@ const current0 = document.getElementById('current--0');
 const hold = document.querySelector('.btn--hold');
 score0.textContent = 0;
 score1.textContent = 0;
+score2.textContent = 0;
 di.classList.add('hidden');
 let currentScore = 0;
 let activePlayer = 0;
