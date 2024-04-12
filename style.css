@@ -24,7 +24,8 @@ body {
 
 /* LAYOUT */
 main {
-  position: relative;
+  position: absolute;
+  top:1;
   width: 100rem;
   height: 60rem;
   background-color: rgba(255, 255, 255, 0.35);
